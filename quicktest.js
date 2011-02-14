@@ -19,6 +19,12 @@ console.log(
 	query.select("user_id")
 	     .from("users")
 	     .where("first_name", "derek")
+	     .where("first_name =", "derek")
+	     .where("first_name >", "derek")
+	     .where("first_name <", "derek")
+	     .where("first_name >=", "derek")
+	     .where("first_name <=", "derek")
+	     .where_not_in("first_name", ["derek", "derek2"])
              .order_by("last_name")
 	     .sql()
 
