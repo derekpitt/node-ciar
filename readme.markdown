@@ -40,7 +40,7 @@ Producing:
 *Note that you can call the methods out of order but still produce a correct query.*
 
 ### Easy CoffeeScript compile:
-    coffee -bs ciar.coffee
+    coffee -bc ciar.coffee
 
 Todo:
 -----
